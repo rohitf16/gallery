@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.landing {
+  display: flex;
+}
+
+.landing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  width: 50%;
+}
+
+.landing-image {
+  background: url(img/Hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 75vh;
+}
+
+.header {
+  padding: 2rem;
+  background-color: rgb(77, 50, 50);
+  color: white;
+}
+
+.descrption {
+  padding: 3rem;
+}
+
+.pics {
+  border-radius: 50px;
+  padding: 0.5rem;
+  margin-top: 10px;
+  width: 5rem;
+  background-color: rgb(201, 130, 38);
+  color: azure;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+
+footer {
+  padding: 3rem;
+  line-height: 2;
+}
